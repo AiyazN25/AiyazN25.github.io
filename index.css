@@ -683,6 +683,10 @@ p{
 
 @media screen and (max-width: 575px){
 
+    h1{
+        font-size: 3.5em;
+    }
+
     #about-grid{
         -ms-grid-columns: (18em);
             grid-template-columns: repeat(1, 18em);
