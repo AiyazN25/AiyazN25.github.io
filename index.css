@@ -374,8 +374,9 @@ p{
     display: grid;
     -ms-grid-columns: [first] 25% [second] 75%;
         grid-template-columns: [first] 25% [second] 75%;
-    -ms-grid-rows: (12.5%) (12.5%) (12.5%) (12.5%);
-        grid-template-rows: repeat(4, 12.5%);
+    /* Since recent Oct 2018 CSS grid change: */
+    /* -ms-grid-rows: (12.5%) (12.5%) (12.5%) (12.5%);
+        grid-template-rows: repeat(4, 12.5%); */
 }
 
 .contact-icon{
