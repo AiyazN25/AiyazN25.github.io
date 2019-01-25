@@ -43,6 +43,38 @@
             window.location.href = "https://wb-users-page.herokuapp.com/";
         })
 
+        var FCProjectCard = document.getElementById("fc-project-card");
+        var FCLearnMoreBtn = document.getElementById("fc-lm-btn");
+        var FCCloseBtn = document.getElementById("fc-close");
+        var FCSourceCodeLink = document.getElementById("view-source-fc");
+        var FCDeployedAppLink = document.getElementById("view-app-fc");
+        FCLearnMoreBtn.addEventListener("click", function(){
+            FCProjectCard.classList.add("flipped");
+        })
+        FCCloseBtn.addEventListener("click", function(){
+            FCProjectCard.classList.remove("flipped");
+        })
+        FCSourceCodeLink.addEventListener("click", function(){
+            window.location.href = "https://github.com/AiyazN25/fancy-cars";
+        })
+        FCDeployedAppLink.addEventListener("click", function(){
+            window.location.href = "https://fancy-cars-aiyaz.herokuapp.com/";
+        })
+
+        var i3ProjectCard = document.getElementById("i3-project-card");
+        var i3LearnMoreBtn = document.getElementById("i3-lm-btn");
+        var i3CloseBtn = document.getElementById("i3-close");
+        var i3DeployedAppLink = document.getElementById("view-app-i3");
+        i3LearnMoreBtn.addEventListener("click", function(){
+            i3ProjectCard.classList.add("flipped");
+        })
+        i3CloseBtn.addEventListener("click", function(){
+            i3ProjectCard.classList.remove("flipped");
+        })        
+        i3DeployedAppLink.addEventListener("click", function(){
+            window.location.href = "https://i3institute.netlify.com/index.html";
+        })
+
         $(".nav-link").click(function(){
             document.getElementById("navbar").classList.remove("responsive");
             // Underline clicked navlink
