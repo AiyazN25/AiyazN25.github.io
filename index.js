@@ -75,6 +75,24 @@
             window.location.href = "https://i3institute.netlify.com/index.html";
         })
 
+        var YGOdbProjectCard = document.getElementById("ygodb-project-card");
+        var YGOdbLearnMoreBtn = document.getElementById("ygodb-lm-btn");
+        var YGOdbCloseBtn = document.getElementById("ygodb-close");
+        var YGOdbDeployedAppLink = document.getElementById("view-app-ygodb");
+        var YGOdbSourceCodeLink = document.getElementById("view-source-ygodb");
+        YGOdbLearnMoreBtn.addEventListener("click", function(){
+            YGOdbProjectCard.classList.add("flipped");
+        })
+        YGOdbCloseBtn.addEventListener("click", function(){
+            YGOdbProjectCard.classList.remove("flipped");
+        })        
+        YGOdbDeployedAppLink.addEventListener("click", function(){
+            window.location.href = "https://aiyazn25.github.io/ygo-deckbuilder/";
+        })
+        YGOdbSourceCodeLink.addEventListener("click", function(){
+            window.location.href = "https://github.com/AiyazN25/ygo-deckbuilder/tree/master";
+        })
+
         $(".nav-link").click(function(){
             document.getElementById("navbar").classList.remove("responsive");
             // Underline clicked navlink
