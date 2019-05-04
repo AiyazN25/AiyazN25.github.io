@@ -156,7 +156,7 @@ body {
     font-size: 2.35vw;
     color: white;
     width: 15%;
-    margin-left: 35%;
+    margin-left: 25%;
     padding-left: 5%;
     font-family: 'Oregano', cursive;
     line-height: 2;
@@ -164,6 +164,7 @@ body {
     -webkit-transition: all .3s;
     transition: all .3s;
     cursor: pointer;
+    display: inline-block;
 }
 
 #come-in-btn:hover{
@@ -605,6 +606,25 @@ p{
     font-size: 1em;
 }
 
+#view-resume {
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: black;
+    width: 155px;
+    margin-left: 2%;
+    padding: 17px;
+    text-align: center;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+#view-resume:hover{
+    color: black;
+    background-color: white;
+}
 
 #resume-btn{
     background-color: black;

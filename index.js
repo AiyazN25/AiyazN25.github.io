@@ -6,6 +6,9 @@
         resumeBtn.addEventListener("click", function(){
             window.location.href = "./Resume - Aiyaz Noor.pdf";
         })
+        document.getElementById("view-resume").addEventListener("click", function(){
+            window.location.href = "./Resume - Aiyaz Noor.pdf";
+        });
 
         var MLBProjectCard = document.getElementById("mlb-project-card");
         var MLBLearnMoreBtn = document.getElementById("mlb-lm-btn");
