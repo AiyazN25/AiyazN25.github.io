@@ -607,12 +607,13 @@ p{
 }
 
 #view-resume {
-    font-size: 25px;
+    display: inline-block;
+    font-size: 1.85vw;
     border-radius: 20px;
     background-color: black;
-    width: 155px;
+    width: 17%;
     margin-left: 2%;
-    padding: 17px;
+    padding: 2%;
     text-align: center;
     color: white;
     font-family: 'Abril Fatface', cursive;
